@@ -2,7 +2,7 @@
 /**
  * Esto es un ejemplo de documentación de PHP
  * @author Laura
- * @version 2.0.1
+ * @version 2.0.2
  *
  * @package Ejemplo
  * @copyright 2023
@@ -24,7 +24,7 @@ class Ejemplo
      *
      * @return boolean true si la direccion es correcta
      * @param string $email direccion de correo
-     * @version 1.0
+     * @version 1.2
      */
     function check_dir_email($email)
     {
@@ -35,7 +35,7 @@ class Ejemplo
      * Localiza las imagenes dentro del contenido
      *
      * @param string $dir_imagenes path al directorio de imagenes
-     * @version 1.0
+     * @version 1.2
      */
     function encuentra_html_imagenes($dir_imagenes)
     {
